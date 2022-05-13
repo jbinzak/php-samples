@@ -1,0 +1,52 @@
+.cloeve-contact-container{
+    width: 100%;
+    min-height: 90vh;
+    position: relative;
+    padding-top: 100px;
+}
+
+.cloeve-contact-row{
+    margin: 0!important;
+}
+
+.cloeve-contact-item{
+    width: 100%;
+    min-height: 200px;
+    background: white;
+    box-shadow: 3px 3px 10px 5px rgba(0,0,0,0.05);
+    margin-bottom: 50px;
+    padding: 50px 35px;
+}
+
+.cloeve-contact-title{
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 200%;
+    color:#333!important;
+}
+
+.cloeve-contact-message{
+    width: 100%;
+    border-radius: 8px;
+    text-align: center;
+    max-height: 0;
+    transition: all 1s;
+    overflow: hidden;
+}
+
+.cloeve-contact-message h5{
+    color: black;
+}
+
+
+.cloeve-contact-btn-submit{
+    background-color:#17bb87!important;
+    border-color:#17bb87!important;
+    color:white!important;
+}
+
+.cloeve-contact-btn-submit:hover{
+    filter: brightness(85%);
+}
